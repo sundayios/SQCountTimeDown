@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B19271B2305832100D5E8B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19271A2305832100D5E8B3 /* AppDelegate.m */; };
+		6B19271E2305832100D5E8B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19271D2305832100D5E8B3 /* ViewController.m */; };
+		6B1927212305832100D5E8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B19271F2305832100D5E8B3 /* Main.storyboard */; };
+		6B1927232305832300D5E8B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1927222305832300D5E8B3 /* Assets.xcassets */; };
+		6B1927262305832300D5E8B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1927242305832300D5E8B3 /* LaunchScreen.storyboard */; };
+		6B1927292305832300D5E8B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1927282305832300D5E8B3 /* main.m */; };
+		6B1927332305832300D5E8B3 /* SQCountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1927322305832300D5E8B3 /* SQCountDownTests.m */; };
+		6B19273E2305832300D5E8B3 /* SQCountDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19273D2305832300D5E8B3 /* SQCountDownUITests.m */; };
+		6B19274E2305836200D5E8B3 /* SQCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19274D2305836200D5E8B3 /* SQCountDown.m */; };
+		6B1927512305838000D5E8B3 /* SQMsecCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1927502305838000D5E8B3 /* SQMsecCountDownView.m */; };
+		6B19275623058CD900D5E8B3 /* UtilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19275523058CD900D5E8B3 /* UtilTool.m */; };
+		CB74439B5526C0096C6B2C93 /* Pods_SQCountDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42870919A875CECBCBC1767 /* Pods_SQCountDown.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B19272F2305832300D5E8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B19270E2305832100D5E8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1927152305832100D5E8B3;
+			remoteInfo = SQCountDown;
+		};
+		6B19273A2305832300D5E8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B19270E2305832100D5E8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1927152305832100D5E8B3;
+			remoteInfo = SQCountDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1621E04E9D5A12A0B1F43342 /* Pods-SQCountDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQCountDown.debug.xcconfig"; path = "Target Support Files/Pods-SQCountDown/Pods-SQCountDown.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1927162305832100D5E8B3 /* SQCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQCountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1927192305832100D5E8B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B19271A2305832100D5E8B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B19271C2305832100D5E8B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B19271D2305832100D5E8B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B1927202305832100D5E8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B1927222305832300D5E8B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B1927252305832300D5E8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B1927272305832300D5E8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1927282305832300D5E8B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B19272E2305832300D5E8B3 /* SQCountDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQCountDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1927322305832300D5E8B3 /* SQCountDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCountDownTests.m; sourceTree = "<group>"; };
+		6B1927342305832300D5E8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1927392305832300D5E8B3 /* SQCountDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQCountDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B19273D2305832300D5E8B3 /* SQCountDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCountDownUITests.m; sourceTree = "<group>"; };
+		6B19273F2305832300D5E8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B19274C2305836200D5E8B3 /* SQCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCountDown.h; sourceTree = "<group>"; };
+		6B19274D2305836200D5E8B3 /* SQCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCountDown.m; sourceTree = "<group>"; };
+		6B19274F2305838000D5E8B3 /* SQMsecCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMsecCountDownView.h; sourceTree = "<group>"; };
+		6B1927502305838000D5E8B3 /* SQMsecCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMsecCountDownView.m; sourceTree = "<group>"; };
+		6B1927522305862900D5E8B3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6B19275423058CD900D5E8B3 /* UtilTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilTool.h; sourceTree = "<group>"; };
+		6B19275523058CD900D5E8B3 /* UtilTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilTool.m; sourceTree = "<group>"; };
+		7418E97EC90237F79661C595 /* Pods-SQCountDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQCountDown.release.xcconfig"; path = "Target Support Files/Pods-SQCountDown/Pods-SQCountDown.release.xcconfig"; sourceTree = "<group>"; };
+		F42870919A875CECBCBC1767 /* Pods_SQCountDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQCountDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B1927132305832100D5E8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB74439B5526C0096C6B2C93 /* Pods_SQCountDown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B19272B2305832300D5E8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1927362305832300D5E8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F32E1324E71EF569779AB0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1621E04E9D5A12A0B1F43342 /* Pods-SQCountDown.debug.xcconfig */,
+				7418E97EC90237F79661C595 /* Pods-SQCountDown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B19270D2305832100D5E8B3 = {
+			isa = PBXGroup;
+			children = (
+				6B1927182305832100D5E8B3 /* SQCountDown */,
+				6B1927312305832300D5E8B3 /* SQCountDownTests */,
+				6B19273C2305832300D5E8B3 /* SQCountDownUITests */,
+				6B1927172305832100D5E8B3 /* Products */,
+				5F32E1324E71EF569779AB0E /* Pods */,
+				A4B91DD54F01E2A3AD3F5F9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B1927172305832100D5E8B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1927162305832100D5E8B3 /* SQCountDown.app */,
+				6B19272E2305832300D5E8B3 /* SQCountDownTests.xctest */,
+				6B1927392305832300D5E8B3 /* SQCountDownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B1927182305832100D5E8B3 /* SQCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				6B19275323058CC400D5E8B3 /* UtilTool */,
+				6B19274B2305834000D5E8B3 /* DownTime */,
+				6B1927192305832100D5E8B3 /* AppDelegate.h */,
+				6B19271A2305832100D5E8B3 /* AppDelegate.m */,
+				6B19271C2305832100D5E8B3 /* ViewController.h */,
+				6B19271D2305832100D5E8B3 /* ViewController.m */,
+				6B19271F2305832100D5E8B3 /* Main.storyboard */,
+				6B1927222305832300D5E8B3 /* Assets.xcassets */,
+				6B1927242305832300D5E8B3 /* LaunchScreen.storyboard */,
+				6B1927272305832300D5E8B3 /* Info.plist */,
+				6B1927282305832300D5E8B3 /* main.m */,
+				6B1927522305862900D5E8B3 /* PrefixHeader.pch */,
+			);
+			path = SQCountDown;
+			sourceTree = "<group>";
+		};
+		6B1927312305832300D5E8B3 /* SQCountDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B1927322305832300D5E8B3 /* SQCountDownTests.m */,
+				6B1927342305832300D5E8B3 /* Info.plist */,
+			);
+			path = SQCountDownTests;
+			sourceTree = "<group>";
+		};
+		6B19273C2305832300D5E8B3 /* SQCountDownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B19273D2305832300D5E8B3 /* SQCountDownUITests.m */,
+				6B19273F2305832300D5E8B3 /* Info.plist */,
+			);
+			path = SQCountDownUITests;
+			sourceTree = "<group>";
+		};
+		6B19274B2305834000D5E8B3 /* DownTime */ = {
+			isa = PBXGroup;
+			children = (
+				6B19274F2305838000D5E8B3 /* SQMsecCountDownView.h */,
+				6B1927502305838000D5E8B3 /* SQMsecCountDownView.m */,
+				6B19274C2305836200D5E8B3 /* SQCountDown.h */,
+				6B19274D2305836200D5E8B3 /* SQCountDown.m */,
+			);
+			path = DownTime;
+			sourceTree = "<group>";
+		};
+		6B19275323058CC400D5E8B3 /* UtilTool */ = {
+			isa = PBXGroup;
+			children = (
+				6B19275423058CD900D5E8B3 /* UtilTool.h */,
+				6B19275523058CD900D5E8B3 /* UtilTool.m */,
+			);
+			path = UtilTool;
+			sourceTree = "<group>";
+		};
+		A4B91DD54F01E2A3AD3F5F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42870919A875CECBCBC1767 /* Pods_SQCountDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1927152305832100D5E8B3 /* SQCountDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1927422305832300D5E8B3 /* Build configuration list for PBXNativeTarget "SQCountDown" */;
+			buildPhases = (
+				B99E7244B8993963F49592D3 /* [CP] Check Pods Manifest.lock */,
+				6B1927122305832100D5E8B3 /* Sources */,
+				6B1927132305832100D5E8B3 /* Frameworks */,
+				6B1927142305832100D5E8B3 /* Resources */,
+				9ECA89F5CBADD18454369E49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQCountDown;
+			productName = SQCountDown;
+			productReference = 6B1927162305832100D5E8B3 /* SQCountDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B19272D2305832300D5E8B3 /* SQCountDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1927452305832300D5E8B3 /* Build configuration list for PBXNativeTarget "SQCountDownTests" */;
+			buildPhases = (
+				6B19272A2305832300D5E8B3 /* Sources */,
+				6B19272B2305832300D5E8B3 /* Frameworks */,
+				6B19272C2305832300D5E8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1927302305832300D5E8B3 /* PBXTargetDependency */,
+			);
+			name = SQCountDownTests;
+			productName = SQCountDownTests;
+			productReference = 6B19272E2305832300D5E8B3 /* SQCountDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B1927382305832300D5E8B3 /* SQCountDownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1927482305832300D5E8B3 /* Build configuration list for PBXNativeTarget "SQCountDownUITests" */;
+			buildPhases = (
+				6B1927352305832300D5E8B3 /* Sources */,
+				6B1927362305832300D5E8B3 /* Frameworks */,
+				6B1927372305832300D5E8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B19273B2305832300D5E8B3 /* PBXTargetDependency */,
+			);
+			name = SQCountDownUITests;
+			productName = SQCountDownUITests;
+			productReference = 6B1927392305832300D5E8B3 /* SQCountDownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B19270E2305832100D5E8B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					6B1927152305832100D5E8B3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6B19272D2305832300D5E8B3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6B1927152305832100D5E8B3;
+					};
+					6B1927382305832300D5E8B3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6B1927152305832100D5E8B3;
+					};
+				};
+			};
+			buildConfigurationList = 6B1927112305832100D5E8B3 /* Build configuration list for PBXProject "SQCountDown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B19270D2305832100D5E8B3;
+			productRefGroup = 6B1927172305832100D5E8B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1927152305832100D5E8B3 /* SQCountDown */,
+				6B19272D2305832300D5E8B3 /* SQCountDownTests */,
+				6B1927382305832300D5E8B3 /* SQCountDownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1927142305832100D5E8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1927262305832300D5E8B3 /* LaunchScreen.storyboard in Resources */,
+				6B1927232305832300D5E8B3 /* Assets.xcassets in Resources */,
+				6B1927212305832100D5E8B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B19272C2305832300D5E8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1927372305832300D5E8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ECA89F5CBADD18454369E49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQCountDown/Pods-SQCountDown-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQCountDown/Pods-SQCountDown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99E7244B8993963F49592D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQCountDown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B1927122305832100D5E8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B19271E2305832100D5E8B3 /* ViewController.m in Sources */,
+				6B19275623058CD900D5E8B3 /* UtilTool.m in Sources */,
+				6B1927292305832300D5E8B3 /* main.m in Sources */,
+				6B1927512305838000D5E8B3 /* SQMsecCountDownView.m in Sources */,
+				6B19271B2305832100D5E8B3 /* AppDelegate.m in Sources */,
+				6B19274E2305836200D5E8B3 /* SQCountDown.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B19272A2305832300D5E8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1927332305832300D5E8B3 /* SQCountDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1927352305832300D5E8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B19273E2305832300D5E8B3 /* SQCountDownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B1927302305832300D5E8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1927152305832100D5E8B3 /* SQCountDown */;
+			targetProxy = 6B19272F2305832300D5E8B3 /* PBXContainerItemProxy */;
+		};
+		6B19273B2305832300D5E8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1927152305832100D5E8B3 /* SQCountDown */;
+			targetProxy = 6B19273A2305832300D5E8B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B19271F2305832100D5E8B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1927202305832100D5E8B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B1927242305832300D5E8B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1927252305832300D5E8B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B1927402305832300D5E8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B1927412305832300D5E8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B1927432305832300D5E8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1621E04E9D5A12A0B1F43342 /* Pods-SQCountDown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SQCountDown/PrefixHeader.pch";
+				INFOPLIST_FILE = SQCountDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tzw.SQCountDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		6B1927442305832300D5E8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7418E97EC90237F79661C595 /* Pods-SQCountDown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SQCountDown/PrefixHeader.pch";
+				INFOPLIST_FILE = SQCountDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tzw.SQCountDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		6B1927462305832300D5E8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQCountDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tzw.SQCountDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQCountDown.app/SQCountDown";
+			};
+			name = Debug;
+		};
+		6B1927472305832300D5E8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQCountDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tzw.SQCountDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQCountDown.app/SQCountDown";
+			};
+			name = Release;
+		};
+		6B1927492305832300D5E8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQCountDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tzw.SQCountDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQCountDown;
+			};
+			name = Debug;
+		};
+		6B19274A2305832300D5E8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQCountDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tzw.SQCountDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQCountDown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B1927112305832100D5E8B3 /* Build configuration list for PBXProject "SQCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1927402305832300D5E8B3 /* Debug */,
+				6B1927412305832300D5E8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1927422305832300D5E8B3 /* Build configuration list for PBXNativeTarget "SQCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1927432305832300D5E8B3 /* Debug */,
+				6B1927442305832300D5E8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1927452305832300D5E8B3 /* Build configuration list for PBXNativeTarget "SQCountDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1927462305832300D5E8B3 /* Debug */,
+				6B1927472305832300D5E8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1927482305832300D5E8B3 /* Build configuration list for PBXNativeTarget "SQCountDownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1927492305832300D5E8B3 /* Debug */,
+				6B19274A2305832300D5E8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B19270E2305832100D5E8B3 /* Project object */;
+}

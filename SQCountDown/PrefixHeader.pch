@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  SQCountDown
+//
+//  Created by yunmian on 2019/8/15.
+//  Copyright © 2019 James. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define WeakSelf   __weak typeof(self) weakSelf = self;
+#define StrongSelf __strong typeof(weakSelf) strongSelf = weakSelf;
+
+#import "Masonry.h"
+//计时器在倒计时为零是的通知
+#define YmdCountDownNofication @"YmdCountDownNofication"
+
+#endif /* PrefixHeader_pch */
